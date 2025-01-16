@@ -1,8 +1,3 @@
-// TMDS transmits 10-bit words serially over the wire, so we need a 10:1
-// parallel-to-serial converter. Use the OSERDESE2 resource for high performance
-// and minimal area usage. Note that each IO block has an OSERDES2 resource (I
-// think they're built into the OLOGIC resources?).
-
 module tmds_serializer (
     input logic rst,
 

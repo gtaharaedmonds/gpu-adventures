@@ -3,6 +3,7 @@ module tmds_encoder (
     input logic clk,
     // 8-bit pixel data input.
     input logic [7:0] din,
+    // Control signals.
     input logic c0,
     c1,
     de,
