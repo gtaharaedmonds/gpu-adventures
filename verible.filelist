@@ -1,0 +1,13 @@
+./bzl_example/eq2/eq1.sv
+./bzl_example/eq2/eq2.sv
+./bzl_example/eq2/eq2_tb.sv
+./bzl_example/eq2/eq2_top.sv
+./rgb2dvi/rgb2dvi.sv
+./rgb2dvi/tmds_encoder.sv
+./rgb2dvi/tmds_encoder_tb.sv
+./rgb2dvi/tmds_serializer.sv
+./rgb2dvi/tmds_serializer_tb.sv
+/tools/Xilinx/Vivado/2024.1/data/verilog/src/unisims/OSERDESE2.v 
+/tools/Xilinx/Vivado/2024.1/data/verilog/src/unisims/OBUFDS.v 
+/tools/Xilinx/Vivado/2024.1/data/verilog/src/unisims/OBUFDS.v 
+/tools/Xilinx/Vivado/2024.1/data/verilog/src/glbl.v

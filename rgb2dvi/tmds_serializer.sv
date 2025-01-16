@@ -3,7 +3,7 @@
 // and minimal area usage. Note that each IO block has an OSERDES2 resource (I
 // think they're built into the OLOGIC resources?).
 
-module tmds_serdes (
+module tmds_serializer (
     input logic rst,
 
     // Serial clock. Must be >=5x the pixel clk.

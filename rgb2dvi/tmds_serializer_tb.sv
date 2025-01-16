@@ -1,10 +1,12 @@
-module tmds_serdes_tb;
+`timescale 1ns / 1ps
+
+module tmds_serializer_tb;
   logic rst, serial_clk, pixel_clk;
   logic [9:0] din;
   logic dout;
   wire dout_p, dout_n;
 
-  tmds_serdes uut (
+  tmds_serializer uut (
       .rst(rst),
       .serial_clk(serial_clk),
       .pixel_clk(pixel_clk),
